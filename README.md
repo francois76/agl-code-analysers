@@ -15,7 +15,7 @@ sonarqube:
 
 create a file sonar-project.properties with the content below : 
 
-'''
+```
 ###########################################
 
 # must be unique in a given SonarQube instance
@@ -32,4 +32,4 @@ sonar.sources=.
 #sonar.sourceEncoding=UTF-8
 
 ###########################################
-'''
+```
