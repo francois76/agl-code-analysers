@@ -1,0 +1,176 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing boundary_error.c (with preprocessing)
+[kernel] syntax error at boundary_error.c:8:
+         6     	int *v;
+         7     	int a = 24;
+         8     	v=new int[a];
+               ^^^^^^^^^^^^^^^
+         9     	v[30]=2;
+         10        return 0;
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing dead_code.c (with preprocessing)
+[value] Analyzing a complete application starting at main
+[value] Computing initial state
+[value] Initial state computed
+[value:initial-state] Values of globals at initialization
+  __FC_errno ∈ [--..--]
+  __fc_stdin ∈ {{ NULL ; &S___fc_stdin[0] }}
+  __fc_stdout ∈ {{ NULL ; &S___fc_stdout[0] }}
+  __fc_fopen[0..511] ∈ {0}
+  __p_fc_fopen ∈ {{ &__fc_fopen[0] }}
+  S___fc_stdin[0..1] ∈ [--..--]
+  S___fc_stdout[0..1] ∈ [--..--]
+[value] Recording results for main
+[value] done for function main
+[value] ====== VALUES COMPUTED ======
+[value:final-states] Values at end of function main:
+  a ∈ {24}
+  b ∈ {25}
+  c ∈ {96}
+  __retres ∈ {96}
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing invalid_memory_access.c (with preprocessing)
+invalid_memory_access.c:6:[kernel] warning: Calling undeclared function malloc. Old style K&R code?
+invalid_memory_access.c:7:[kernel] warning: Calling undeclared function free. Old style K&R code?
+invalid_memory_access.c:8:[kernel] warning: Calling undeclared function strcpy. Old style K&R code?
+[value] Analyzing a complete application starting at main
+[value] Computing initial state
+[value] Initial state computed
+[value:initial-state] Values of globals at initialization
+  __FC_errno ∈ [--..--]
+  __fc_stdin ∈ {{ NULL ; &S___fc_stdin[0] }}
+  __fc_stdout ∈ {{ NULL ; &S___fc_stdout[0] }}
+  __fc_fopen[0..511] ∈ {0}
+  __p_fc_fopen ∈ {{ &__fc_fopen[0] }}
+  S___fc_stdin[0..1] ∈ [--..--]
+  S___fc_stdout[0..1] ∈ [--..--]
+[value] computing for function malloc <- main.
+        Called from invalid_memory_access.c:6.
+invalid_memory_access.c:6:[kernel] warning: Neither code nor specification for function malloc, generating default assigns from the prototype
+[value] using specification for function malloc
+[value] Done for function malloc
+[value] computing for function free <- main.
+        Called from invalid_memory_access.c:7.
+invalid_memory_access.c:7:[kernel] warning: Neither code nor specification for function free, generating default assigns from the prototype
+[value] using specification for function free
+invalid_memory_access.c:7:[value] warning: Completely invalid destination for assigns clause *(x_0 + (0 ..)). Ignoring.
+[value] Done for function free
+[value] computing for function strcpy <- main.
+        Called from invalid_memory_access.c:8.
+invalid_memory_access.c:8:[kernel] warning: Neither code nor specification for function strcpy, generating default assigns from the prototype
+[value] using specification for function strcpy
+invalid_memory_access.c:8:[value] warning: Completely invalid destination for assigns clause *(x_0 + (0 ..)). Ignoring.
+[value] Done for function strcpy
+[value] Recording results for main
+[value] done for function main
+[value] ====== VALUES COMPUTED ======
+[value:final-states] Values at end of function main:
+  pStr ∈ [--..--]
+  __retres ∈ {0}
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing memory_leaks.c (with preprocessing)
+memory_leaks.c:6:[kernel] warning: Calling undeclared function malloc. Old style K&R code?
+[value] Analyzing a complete application starting at main
+[value] Computing initial state
+[value] Initial state computed
+[value:initial-state] Values of globals at initialization
+  __FC_errno ∈ [--..--]
+  __fc_stdin ∈ {{ NULL ; &S___fc_stdin[0] }}
+  __fc_stdout ∈ {{ NULL ; &S___fc_stdout[0] }}
+  __fc_fopen[0..511] ∈ {0}
+  __p_fc_fopen ∈ {{ &__fc_fopen[0] }}
+  S___fc_stdin[0..1] ∈ [--..--]
+  S___fc_stdout[0..1] ∈ [--..--]
+[value] computing for function malloc <- main.
+        Called from memory_leaks.c:6.
+memory_leaks.c:6:[kernel] warning: Neither code nor specification for function malloc, generating default assigns from the prototype
+[value] using specification for function malloc
+[value] Done for function malloc
+[value] Recording results for main
+[value] done for function main
+[value] ====== VALUES COMPUTED ======
+[value:final-states] Values at end of function main:
+  pStr ∈ [--..--]
+  __retres ∈ {0}
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing mismatched_allocation_deallocation.c (with preprocessing)
+[kernel] syntax error at mismatched_allocation_deallocation.c:7:
+         5     	//Mismatched Allocation/Deallocation :
+         6     	char *s = (char*) malloc(5);
+         7     	delete s;
+               ^^^^^^^^^^^
+         8         return 0;
+         9     }
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing missing_allocation.c (with preprocessing)
+missing_allocation.c:6:[kernel] warning: Calling undeclared function malloc. Old style K&R code?
+missing_allocation.c:7:[kernel] warning: Calling undeclared function free. Old style K&R code?
+[value] Analyzing a complete application starting at main
+[value] Computing initial state
+[value] Initial state computed
+[value:initial-state] Values of globals at initialization
+  __FC_errno ∈ [--..--]
+  __fc_stdin ∈ {{ NULL ; &S___fc_stdin[0] }}
+  __fc_stdout ∈ {{ NULL ; &S___fc_stdout[0] }}
+  __fc_fopen[0..511] ∈ {0}
+  __p_fc_fopen ∈ {{ &__fc_fopen[0] }}
+  S___fc_stdin[0..1] ∈ [--..--]
+  S___fc_stdout[0..1] ∈ [--..--]
+[value] computing for function malloc <- main.
+        Called from missing_allocation.c:6.
+missing_allocation.c:6:[kernel] warning: Neither code nor specification for function malloc, generating default assigns from the prototype
+[value] using specification for function malloc
+[value] Done for function malloc
+[value] computing for function free <- main.
+        Called from missing_allocation.c:7.
+missing_allocation.c:7:[kernel] warning: Neither code nor specification for function free, generating default assigns from the prototype
+[value] using specification for function free
+missing_allocation.c:7:[value] warning: Completely invalid destination for assigns clause *(x_0 + (0 ..)). Ignoring.
+[value] Done for function free
+[value] computing for function free <- main.
+        Called from missing_allocation.c:8.
+missing_allocation.c:8:[value] warning: Completely invalid destination for assigns clause *(x_0 + (0 ..)). Ignoring.
+[value] Done for function free
+[value] Recording results for main
+[value] done for function main
+[value] ====== VALUES COMPUTED ======
+[value:final-states] Values at end of function main:
+  pStr ∈ [--..--]
+  __retres ∈ {0}
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing uninitialized_memory_access.c (with preprocessing)
+uninitialized_memory_access.c:6:[kernel] warning: Calling undeclared function malloc. Old style K&R code?
+uninitialized_memory_access.c:8:[kernel] warning: Calling undeclared function func. Old style K&R code?
+uninitialized_memory_access.c:12:[kernel] user error: Declaration of func does not match previous declaration from uninitialized_memory_access.c:8 (different type constructors:
+                     int and void).
+uninitialized_memory_access.c:15:[kernel] warning: Body of function func falls-through. Adding a return statement
+[kernel] user error: stopping on file "uninitialized_memory_access.c" that has errors. Add
+                     '-kernel-msg-key pp' for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing uninitialized_variables.c (with preprocessing)
+uninitialized_variables.c:9:[kernel] failure: Cannot resolve variable cout
+[kernel] user error: stopping on file "uninitialized_variables.c" that has errors. Add
+                     '-kernel-msg-key pp' for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing unused_variables.c (with preprocessing)
+[value] Analyzing a complete application starting at main
+[value] Computing initial state
+[value] Initial state computed
+[value:initial-state] Values of globals at initialization
+  __FC_errno ∈ [--..--]
+  __fc_stdin ∈ {{ NULL ; &S___fc_stdin[0] }}
+  __fc_stdout ∈ {{ NULL ; &S___fc_stdout[0] }}
+  __fc_fopen[0..511] ∈ {0}
+  __p_fc_fopen ∈ {{ &__fc_fopen[0] }}
+  S___fc_stdin[0..1] ∈ [--..--]
+  S___fc_stdout[0..1] ∈ [--..--]
+[value] Recording results for main
+[value] done for function main
+[value] ====== VALUES COMPUTED ======
+[value:final-states] Values at end of function main:
+  azerty ∈ {24}
+  __retres ∈ {0}

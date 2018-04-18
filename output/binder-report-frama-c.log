@@ -1,0 +1,380 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afb-api.c (with preprocessing)
+[kernel] syntax error at afb-api.c:48:
+         46    					break;
+         47    				/*@fallthrough@*/
+         48    			case '"':
+               ^^^^^^^^^^^^
+         49    			case '#':
+         50    			case '%':
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afb-api-dbus.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/afb-api-dbus.c8eeff3.i' 'afb-api-dbus.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "afb-api-dbus.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afb-api-dyn.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/afb-api-dyn.cc7ccd5.i' 'afb-api-dyn.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "afb-api-dyn.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afb-apiset.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/afb-apiset.cbf466a.i' 'afb-apiset.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "afb-apiset.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afb-api-so.c (with preprocessing)
+afb-api-so.c:47:[kernel] warning: Calling undeclared function strsignal. Old style K&R code?
+afb-api-so.c:69:[kernel] failure: Cannot resolve variable RTLD_DEEPBIND
+[kernel] user error: stopping on file "afb-api-so.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afb-api-so-v1.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/afb-api-so-v1.cf2ff1a.i' 'afb-api-so-v1.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "afb-api-so-v1.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afb-api-so-v2.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/afb-api-so-v2.c10dfc7.i' 'afb-api-so-v2.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "afb-api-so-v2.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afb-api-so-vdyn.c (with preprocessing)
+[kernel] user error: cannot find entry point `main'.
+                     Please use option `-main' for specifying a valid entry point.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afb-api-ws.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/afb-api-ws.cb6a71c.i' 'afb-api-ws.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "afb-api-ws.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afb-auth.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/afb-auth.c01880b.i' 'afb-auth.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "afb-auth.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afb-client-demo.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/afb-client-demo.c228771.i' 'afb-client-demo.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "afb-client-demo.c" that has errors. Add
+                     '-kernel-msg-key pp' for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afb-common.c (with preprocessing)
+afb-common.c:48:[kernel] failure: Cannot resolve variable O_PATH
+[kernel] user error: stopping on file "afb-common.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afb-config.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/afb-config.c5ea5da.i' 'afb-config.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "afb-config.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afb-context.c (with preprocessing)
+[kernel] user error: cannot find entry point `main'.
+                     Please use option `-main' for specifying a valid entry point.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afb-cred.c (with preprocessing)
+afb-cred.c:124:[kernel] user error: Cannot find field uid
+[kernel] user error: stopping on file "afb-cred.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afb-debug.c (with preprocessing)
+[kernel] user error: cannot find entry point `main'.
+                     Please use option `-main' for specifying a valid entry point.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afb-evt.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/afb-evt.cbcc19b.i' 'afb-evt.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "afb-evt.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afb-export.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/afb-export.c4325b3.i' 'afb-export.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "afb-export.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afb-fdev.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/afb-fdev.ce77b2d.i' 'afb-fdev.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "afb-fdev.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afb-hook.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/afb-hook.c2bf6c8.i' 'afb-hook.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "afb-hook.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afb-hreq.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/afb-hreq.ce2f423.i' 'afb-hreq.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "afb-hreq.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afb-hsrv.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/afb-hsrv.cd8fa22.i' 'afb-hsrv.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "afb-hsrv.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afb-hswitch.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/afb-hswitch.cf96d78.i' 'afb-hswitch.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "afb-hswitch.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afb-method.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/afb-method.c964b52.i' 'afb-method.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "afb-method.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afb-monitor.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/afb-monitor.cbcd52a.i' 'afb-monitor.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "afb-monitor.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afb-msg-json.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/afb-msg-json.c59dbe0.i' 'afb-msg-json.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "afb-msg-json.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afb-proto-ws.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/afb-proto-ws.c96b8a7.i' 'afb-proto-ws.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "afb-proto-ws.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afb-session.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/afb-session.c80a379.i' 'afb-session.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "afb-session.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afb-stub-ws.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/afb-stub-ws.caee067.i' 'afb-stub-ws.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "afb-stub-ws.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afb-supervision.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/afb-supervision.c5a6ba1.i' 'afb-supervision.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "afb-supervision.c" that has errors. Add
+                     '-kernel-msg-key pp' for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afb-systemd.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/afb-systemd.c216635.i' 'afb-systemd.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "afb-systemd.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afb-trace.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/afb-trace.cbe5745.i' 'afb-trace.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "afb-trace.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afb-websock.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/afb-websock.c21e28f.i' 'afb-websock.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "afb-websock.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afb-ws.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/afb-ws.c479b31.i' 'afb-ws.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "afb-ws.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afb-ws-client.c (with preprocessing)
+afb-ws-client.c:94:[kernel] warning: Calling undeclared function stpcpy. Old style K&R code?
+afb-ws-client.c:107:[kernel] warning: Calling undeclared function asprintf. Old style K&R code?
+afb-ws-client.c:452:[kernel] warning: Calling undeclared function strndupa. Old style K&R code?
+[kernel] user error: cannot find entry point `main'.
+                     Please use option `-main' for specifying a valid entry point.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afb-wsj1.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/afb-wsj1.c393774.i' 'afb-wsj1.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "afb-wsj1.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afb-ws-json1.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/afb-ws-json1.cd00dc4.i' 'afb-ws-json1.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "afb-ws-json1.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afb-xreq.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/afb-xreq.cea94b9.i' 'afb-xreq.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "afb-xreq.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afs-config.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/afs-config.ce4ef34.i' 'afs-config.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "afs-config.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afs-discover.c (with preprocessing)
+[kernel] user error: cannot find entry point `main'.
+                     Please use option `-main' for specifying a valid entry point.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afs-main.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/afs-main.c85ea6e.i' 'afs-main.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "afs-main.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing afs-supervisor.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/afs-supervisor.c0e1d1b.i' 'afs-supervisor.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "afs-supervisor.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing fdev.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/fdev.c04a9c6.i' 'fdev.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "fdev.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing fdev-epoll.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/fdev-epoll.c385fb1.i' 'fdev-epoll.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "fdev-epoll.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing fdev-systemd.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/fdev-systemd.c424e93.i' 'fdev-systemd.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "fdev-systemd.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing jobs.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/jobs.cb881ec.i' 'jobs.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "jobs.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing jobs-fake.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/jobs-fake.c3af102.i' 'jobs-fake.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "jobs-fake.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing locale-root.c (with preprocessing)
+locale-root.c:196:[kernel] warning: Calling undeclared function fstatat. Old style K&R code?
+locale-root.c:264:[kernel] failure: Cannot resolve variable O_PATH
+[kernel] user error: stopping on file "locale-root.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing main.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/main.c8f5ac5.i' 'main.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "main.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing process-name.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/process-name.ce880e6.i' 'process-name.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "process-name.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing sig-monitor.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/sig-monitor.c060e26.i' 'sig-monitor.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "sig-monitor.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing subpath.c (with preprocessing)
+[kernel] user error: cannot find entry point `main'.
+                     Please use option `-main' for specifying a valid entry point.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing verbose.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/verbose.caa25f9.i' 'verbose.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "verbose.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing websock.c (with preprocessing)
+[kernel] syntax error at websock.c:311:
+         309   		/*@fallthrough@*/
+         310   
+         311   	case STATE_START:
+               ^^^^^^^^^^^^^^^^^^
+         312   		/* read the header */
+         313   		if (read_header(ws))
+[kernel] Frama-C aborted: invalid user input.
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing wrap-json.c (with preprocessing)
+[kernel] user error: failed to run: gcc -E -C -I.  -dD -D__FRAMAC__  -nostdinc -D__FC_MACHDEP_X86_32 -I/usr/share/frama-c/libc -o '/tmp/wrap-json.cd64e40.i' 'wrap-json.c'
+                     you may set the CPP environment variable to select the proper preprocessor command or use the option "-cpp-command".
+[kernel] user error: stopping on file "wrap-json.c" that has errors. Add '-kernel-msg-key pp'
+                     for preprocessing command.
+[kernel] Frama-C aborted: invalid user input.

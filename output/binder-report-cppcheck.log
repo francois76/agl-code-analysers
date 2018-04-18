@@ -1,0 +1,2 @@
+[src/afb-hreq.c:632]: (error) Common realloc mistake: 'text' nulled but not freed upon failure
+[src/afb-trace.c:141]: (error) Common realloc mistake: 'errs' nulled but not freed upon failure
